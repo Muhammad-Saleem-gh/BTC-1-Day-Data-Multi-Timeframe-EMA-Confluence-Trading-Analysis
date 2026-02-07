@@ -3,7 +3,7 @@ This repository contains a Python script for analyzing Bitcoin (BTC/USDT) price 
 
 ---
 
-##Features
+## Features
 
 Multi-Timeframe Aggregation: Converts 5-minute candles into 1H and 4H timeframes for higher timeframe analysis.
 
@@ -25,13 +25,13 @@ Visualization: Uses mplfinance to plot candlesticks, EMAs, key levels, and trade
 
 ---
 
-##Purpose
+## Purpose
 
 This script is designed for traders and analysts to identify high-probability trade setups by combining technical indicators and market structure in a systematic way. It provides a clear framework for multi-timeframe analysis and visualizing key levels.
 
 ---
 
-##Dependencies
+## Dependencies
 
 pandas
 
