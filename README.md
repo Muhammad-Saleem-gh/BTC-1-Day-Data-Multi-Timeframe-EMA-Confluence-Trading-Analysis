@@ -1,7 +1,9 @@
 # BTC-1-Day-Data-Multi-Timeframe-EMA-Confluence-Trading-Analysis
 This repository contains a Python script for analyzing Bitcoin (BTC/USDT) price action using multi-timeframe EMAs, previous day levels, session highs/lows, trendlines, and trade confluence strategies.
 
-Features
+---
+
+##Features
 
 Multi-Timeframe Aggregation: Converts 5-minute candles into 1H and 4H timeframes for higher timeframe analysis.
 
@@ -21,11 +23,15 @@ Confluence Scoring: Quantifies the strength of trade signals with a multi-layer 
 
 Visualization: Uses mplfinance to plot candlesticks, EMAs, key levels, and trade markers for easy analysis.
 
-Purpose
+---
+
+##Purpose
 
 This script is designed for traders and analysts to identify high-probability trade setups by combining technical indicators and market structure in a systematic way. It provides a clear framework for multi-timeframe analysis and visualizing key levels.
 
-Dependencies
+---
+
+##Dependencies
 
 pandas
 
