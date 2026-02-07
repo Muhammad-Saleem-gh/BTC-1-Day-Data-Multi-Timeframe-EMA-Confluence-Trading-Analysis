@@ -1,29 +1,31 @@
 # BTC-1-Day-Data-Multi-Timeframe-EMA-Confluence-Trading-Analysis
 This repository contains a Python script for analyzing Bitcoin (BTC/USDT) price action using multi-timeframe EMAs, previous day levels, session highs/lows, trendlines, and trade confluence strategies.
-Features include:
 
-Aggregation of 5-minute candles into 1H and 4H timeframes.
+Features
 
-Calculation of Previous Day High/Low/Close for support/resistance analysis.
+Multi-Timeframe Aggregation: Converts 5-minute candles into 1H and 4H timeframes for higher timeframe analysis.
 
-Identification of trading sessions (Asian, London, New York) and session ranges.
+Previous Day Levels: Calculates High, Low, and Close of the previous day for support/resistance analysis.
 
-EMA20 and EMA50 analysis for trend direction, pullbacks, and support/resistance.
+Trading Sessions: Identifies key sessions (Asian, London, New York) and their high/low ranges.
 
-Detection of EMA reactions, breaks, and retests.
+EMA Analysis: Computes EMA20 and EMA50 for trend direction, pullbacks, and support/resistance zones.
 
-Multi-layered confluence signals combining EMAs, previous day levels, sessions, trendlines, liquidity sweeps, and Fair Value Gaps (FVG).
+EMA Reactions: Detects price reactions, breaks, and retests of EMAs.
 
-Automatic trade setup suggestions with Entry, Stop Loss, and Take Profit levels.
+Confluence Signals: Combines EMAs, previous day levels, session highs/lows, trendlines, liquidity sweeps, and Fair Value Gaps (FVG) for stronger signals.
 
-Confluence scoring system to quantify the strength of trade signals.
+Trade Setup Suggestions: Provides Entry, Stop Loss, and Take Profit levels based on EMA setups.
 
-Visualization using mplfinance with EMAs, key levels, and trade markers.
+Confluence Scoring: Quantifies the strength of trade signals with a multi-layer confluence score.
 
-Purpose:
-This script is designed for traders and analysts to identify high-probability trade setups by combining technical indicators and market structure in a systematic way.
+Visualization: Uses mplfinance to plot candlesticks, EMAs, key levels, and trade markers for easy analysis.
 
-Dependencies:
+Purpose
+
+This script is designed for traders and analysts to identify high-probability trade setups by combining technical indicators and market structure in a systematic way. It provides a clear framework for multi-timeframe analysis and visualizing key levels.
+
+Dependencies
 
 pandas
 
